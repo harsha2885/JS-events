@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Background Color Change</title>
+    <script>
+    function f1(){
+        document.getElementById("input").style.backgroundColor = "red";
+    }
+    function f2(){
+        document.getElementById("input").style.backgroundColor = "yellow";
+    }
+    </script>
+</head>
+<body>
+    EST: <input type="text" id="input" onfocus="f1()" onblur="f2()">
+</body>
+</html>
